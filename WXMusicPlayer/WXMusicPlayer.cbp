@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WXMusicPlayer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/WXMusicPlayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_lib/mswu" />
+					<Add directory="C:/ffmpeg-4.0.1-win32-dev/include" />
+					<Add directory="C:/SDL2-2.0.8/i686-w64-mingw32/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw31u_core.a" />
+					<Add library="libwxbase31u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="C:/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libavcodec.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libavdevice.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libavfilter.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libavformat.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libavutil.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libpostproc.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libswresample.dll.a" />
+					<Add library="C:/ffmpeg-4.0.1-win32-dev/lib/libswscale.dll.a" />
+					<Add library="C:/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a" />
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="C:/wxWidgets-3.1.1/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.1.1/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+			<Add library="libshlwapi.a" />
+			<Add library="libversion.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxbase31u.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxbase31u_net.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxbase31u_xml.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxexpat.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxjpeg.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_adv.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_aui.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_core.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_gl.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_html.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_media.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_propgrid.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_ribbon.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_richtext.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_stc.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_webview.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxmsw31u_xrc.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxpng.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxregexu.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxscintilla.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxtiff.a" />
+			<Add library="C:/wxWidgets-3.1.1/lib/gcc_lib/libwxzlib.a" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/liboleacc.a" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libuxtheme.a" />
+		</Linker>
+		<Unit filename="Memory.cpp" />
+		<Unit filename="Memory.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="WXMusicPlayerApp.cpp" />
+		<Unit filename="WXMusicPlayerApp.h" />
+		<Unit filename="WXMusicPlayerMain.cpp" />
+		<Unit filename="WXMusicPlayerMain.h" />
+		<Unit filename="json.hpp" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/WXMusicPlayerframe.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="WXMusicPlayerApp.cpp" main="WXMusicPlayerFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/WXMusicPlayerframe.wxs" src="WXMusicPlayerMain.cpp" hdr="WXMusicPlayerMain.h" fwddecl="0" i18n="1" name="WXMusicPlayerFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
